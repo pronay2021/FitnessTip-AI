@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessTip AI - Daily Workout Wisdom</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-dumbbell"></i>
+                <h1>FitnessTip AI</h1>
+            </div>
+            <p class="tagline">AI-powered fitness wisdom, one minute at a time</p>
+        </header>
+
+        <main>
+            <div class="tip-container">
+                <div class="tip-card">
+                    <div class="tip-header">
+                        <h2>Today's Fitness Tip</h2>
+                        <div class="timer-container">
+                            <i class="fas fa-clock"></i>
+                            <span id="countdown">10</span>s until next tip
+                        </div>
+                    </div>
+                    <div class="tip-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p id="current-tip">Loading your personalized fitness tip...</p>
+                        <i class="fas fa-quote-right quote-icon"></i>
+                    </div>
+                    <button id="refresh-tip" class="refresh-button">
+                        <i class="fas fa-sync-alt"></i> Get New Tip
+                    </button>
+                </div>
+            </div>
+
+            <div class="history-section">
+                <h3>Recent Tips <i class="fas fa-history"></i></h3>
+                <div class="history-container" id="tip-history">
+                
+                </div>
+            </div>
+        </main>
+
+        
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
