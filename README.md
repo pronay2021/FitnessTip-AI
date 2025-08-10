@@ -14,7 +14,7 @@ FitnessTip AI is a dynamic web application that generates personalized fitness t
 
 ## 🎥 Demo
 
-https://github.com/user-attachments/assets/c895ccb4-629e-45d7-bf19-1ab2c8bf04c0
+https://github.com/user-attachments/assets/426ec937-867b-4b23-8a3a-10bcb087ee8a
 
 *Watch FitnessTip AI in action! See how the app automatically generates AI-powered fitness tips every 10 seconds and explore the intuitive user interface.*
 
