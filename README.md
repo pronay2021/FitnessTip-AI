@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/c895ccb4-629e-45d7-bf19-1ab2c8bf04c0
 
 ### Installation
 
-1. **Clone the repository**
+### 1. **Clone the repository**
    ```bash
    git clone https://github.com/pronay2021/FitnessTip-AI.git
    ```
